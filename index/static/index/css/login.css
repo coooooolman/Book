@@ -1,0 +1,142 @@
+/* CSS Document */
+.login-c .con-b {
+	width: 400px;
+	padding: 10px;
+	height: 480px;
+}
+
+.login-c .con-b h1 {
+	font-size: 18px;
+}
+
+.login-c .head {
+	margin-top: 20px;
+	height: 25px;
+}
+
+.login-c .head img {
+	display: inline-block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.login-c .head h2 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.login-c #login>input{
+	display: block;
+	width: 380px;
+	height: 32px;
+	border: thin #bbbbbb solid;
+	border-radius: 3px;
+	transition: all .3s ease;
+	margin-top: 20px;
+	padding-left: 12px;
+}
+
+.login-c #login input:hover {
+	border:thin rgb(100,100,255) solid;
+}
+
+.login-c #login select {
+	margin-top: 20px;
+	width: 200px;
+	height: 32px;
+	border: thin #BBBBBB solid;
+	border-radius: 3px;
+	background-color: #E9E9E9;
+	padding-left: 12px;
+}
+
+.login-c #login select:nth-of-type(2) {
+	margin-left: 10px;
+}
+
+.login-c #login button {
+	width: 70px;
+	height: 30px;
+	background: #FE8753;
+	border: thin #FE8753 solid;
+	border-radius: 5px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.login-c .stayIn a {
+	display: inline-block;
+	float: right;
+	color: #0064dc;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.login-c .stayIn p {
+	letter-spacing: 2px;
+	margin-top: 20px;
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.login-c .stayIn input {
+	height: 20px;
+	width: 20px;
+	background-color: #999999;
+	border: thin #BBBBBB solid;
+	border-radius: 3px;
+	display: none;
+}
+
+.login-c .stayIn span {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-size: 25px;
+
+}
+
+.login-c .needCheck {
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	border: 4px #666 solid;
+	border-radius: 4px;
+	position: relative;
+	top: 3px;
+}
+
+.login-c .checked {
+	background-color: #666;
+}
+
+.login-c .checked::before {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 7px;
+	height: 3px;
+	top: 2px;
+	left: 1px;
+	transform: rotate(-40deg);
+	border-left: 3px #FFF solid;
+	border-bottom: 3px #FFF solid;
+}
+
+.login-c .foot {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.login-c .foot a {
+	color: #0064dc;
+}
+
+.login-c .stayIn a {
+	color: #0064dc;
+}
