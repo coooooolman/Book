@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'demos',
     'index',
+    'userdata',
 ]
 
 MIDDLEWARE = [
