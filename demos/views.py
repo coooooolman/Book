@@ -11,3 +11,5 @@ def demo_2(request):
     return render(request, 'demos/demo_1.html')
 
 
+def demo_3(request):
+    return render(request, 'demos/demo_2.html')
