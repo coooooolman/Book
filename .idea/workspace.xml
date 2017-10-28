@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e72870-6275-4e69-ba19-d701596dfe7a" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/views.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1509188056004</updated>
     </task>
+    <task id="LOCAL-00001" summary="新建user app">
+      <created>1509207215695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509207215695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -218,6 +225,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建user app" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建user app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
