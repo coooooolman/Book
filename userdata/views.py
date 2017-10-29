@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from . import models
 
 
 def login(request):
@@ -11,20 +10,20 @@ def success(request):
     return HttpResponse('Success!')
 
 
-def check(request):
-    if request.method == 'GET':
-        g_username = request.GET.get('username')
-        have_username = models.UserData.objects.filter(username=g_username)
-        if list(have_username):
-            return HttpResponse(1)
-        return HttpResponse(0)
-    elif request.method == 'POST':
-        g_username = request.POST.get('username')
-        d_username = models.UserData.objects.filter(username=g_username)
-        if list(d_username):
-            g_passwd = request.POST.get('passwd')
-            if list(d_username)[0].password == g_passwd:
-                return HttpResponse(2)
-            return HttpResponse(1)
-        else:
-            return HttpResponse(0)
+def show(request):
+    return HttpResponse('Doge')
+
+# TODO (CoolMan)
+# 建议把处理函数名称改为check，用来检验用户登录是否正确
+
+# 请求1:
+# url: /check
+# 方法: get
+# 参数: {'username': 用户名}
+# 返回值: 用户名存在返回 1 ，否则返回 0 。
+
+# 请求2:
+# url: /check
+# 方法: post
+# 参数: {'username': 用户名, 'passwd': 密码}
+# 返回值: 用户名不存在返回 0 ，用户名存在但密码错误返回 1 ，二者都正确返回 2 。
