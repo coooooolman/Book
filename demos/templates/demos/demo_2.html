@@ -6,12 +6,15 @@
         <link rel="stylesheet" href="/static/demos/css/demo_2.css">
     </head>
     <body>
-        <form id="signin" action="/success" method="get" onsubmit="check(); return false;">
-            <input type="text" id="username" placeholder="username">
-            <input type="password" id="passwd" placeholder="password">
-            <input type="submit" value="GO!">
-        </form>
-        <p>Click</p>
+        <div class="show">
+            <form id="signin" action="/success" method="get" onsubmit="check(); return false;">
+                <input type="text" id="username" placeholder="username"><label for="username"></label>
+                <input type="password" id="passwd" placeholder="password"><label for="passwd"></label>
+                <input type="submit" value="GO!">
+            </form>
+        </div>
+        <p class="c0">Click one</p>
+
 
         <script src="/static/demos/js/jquery.js"></script>
         <script>
