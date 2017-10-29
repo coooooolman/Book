@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0e72870-6275-4e69-ba19-d701596dfe7a" name="默认的" comment="start">
+    <list default="true" id="c0e72870-6275-4e69-ba19-d701596dfe7a" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/static/demos/css/demo_2.css" afterPath="$PROJECT_DIR$/demos/static/demos/css/demo_2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/static/demos/js/demo_2.js" afterPath="$PROJECT_DIR$/demos/static/demos/js/demo_2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/templates/demos/demo_2.html" afterPath="$PROJECT_DIR$/demos/templates/demos/demo_2.html" />
     </list>
     <ignored path=".idea/" />
@@ -27,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/demos/templates/demos/demo_2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509213866240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="start">
+      <created>1509277579902</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509277579902</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -271,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建user app" />
     <MESSAGE value="user data" />
-    <option name="LAST_COMMIT_MESSAGE" value="user data" />
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/demos/templates/demos/demo_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
