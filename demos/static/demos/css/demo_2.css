@@ -1,8 +1,18 @@
+.show {
+    display: table;
+    margin: 40px auto 0;
+    text-align: center;
+}
 #signin {
-/*TODO(Alfred) 使表单居中*/
+    display: table-cell;
 }
 
 #passwd, #username {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
     display: block;
     width: 100px;
     height: 30px;
@@ -11,4 +21,8 @@
 
 [type=submit] {
     margin-top: 20px;
+}
+
+.c0 {
+    text-align: center;
 }
