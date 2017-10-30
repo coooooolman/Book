@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>登录</title>
+        <link rel="stylesheet" href="/static/userdata/css/login.css">
+    </head>
+    <body>
+        <div class="show">
+            <form action="/login/success" id="login" onsubmit="check(2); return false;">
+                <input type="text" id="username" placeholder="Username"><span class="t_username"></span>
+                <input type="password" id="passwd" placeholder="Password"><span class="t_passwd"></span>
+                <input type="submit" value="GO!">
+            </form>
+        </div>
+        <p class="welcome" style="display: none;"></p>
+        <script src="/static/userdata/js/jquery.js"></script>
+        <script>
+            $.ajaxSetup({
+                data: {csrfmiddlewaretoken: '{{ csrf_token }}' }
+            });
+        </script>
+        <script src="/static/userdata/js/login.js"></script>
+    </body>
+</html>

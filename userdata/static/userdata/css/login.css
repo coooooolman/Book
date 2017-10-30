@@ -1,0 +1,22 @@
+.show {
+    display: table;
+    margin: 100px auto 0;
+}
+
+#user, #passwd {
+    display: block;
+    margin-top: 20px;
+}
+
+span {
+    display: block;
+}
+
+[type=submit] {
+    display: block;
+    margin-top: 20px;
+}
+
+.welcome {
+    font-size: 40px;
+}
